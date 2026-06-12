@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Runtime memory files (generated per project)
+.claude/memory/fragments/
+.claude/memory/archive/
+.claude/memory/state.json
+.claude/memory/queue.json
+.claude/memory/hook-errors.log
+.claude/memory/index.sqlite
+.claude/memory/index.sqlite-wal
+.claude/memory/index.sqlite-shm
+.claude/settings.local.json
+.claude.backup-*/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
