@@ -130,6 +130,14 @@ python3 .claude/hooks/memory-search.py "" --reindex
 
 ---
 
+## 今後の予定（Roadmap）
+
+- **sbx（Docker サンドボックス）↔ 母艦の記憶同期** — Docker コンテナ内で作業した記憶を、ホスト側のメモリへ共有する dual-write / sync 機構。現状は sbx 内でも「壊れずに動く」対応まで（スコープは project / global の自動判定）
+- **global インストールでの全プロジェクト共有** — `~/.claude/` への配置による横断メモリ
+- **意味検索の品質改善** — チャンク分割・定型文除去によるノイズ低減
+
+---
+
 ## ライセンス
 
 MIT
